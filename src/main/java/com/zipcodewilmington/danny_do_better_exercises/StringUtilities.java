@@ -70,7 +70,7 @@ public class StringUtilities {
         if (inputValue.length() % 2 != 0) {
             return inputValue.charAt(inputValue.length() / 2);
         } else {
-            return inputValue.charAt(inputValue.length() / 2);
+            return inputValue.charAt(((inputValue.length()/2) - 1));
         }
     }
 
